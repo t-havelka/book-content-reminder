@@ -1,0 +1,26 @@
+{
+  "name": "book-content-reminder",
+  "version": "0.0.0",
+  "description": "simple app to remind you of characters, groups and places from various book series only for local purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "docker-compose:up": "docker-compose -f docker/local/docker-compose.yml up -d",
+    "docker-compose:stop": "docker-compose -f docker/local/docker-compose.yml stop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-havelka/book-content-reminder.git"
+  },
+  "keywords": [
+    "book",
+    "reminder",
+    "notes"
+  ],
+  "author": "Tomáš Havelka, havelka.tomas4@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t-havelka/book-content-reminder/issues"
+  },
+  "homepage": "https://github.com/t-havelka/book-content-reminder#readme"
+}
