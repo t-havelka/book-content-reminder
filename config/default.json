@@ -1,5 +1,8 @@
 {
   "api": {
-    "port": "6668"
+    "port": "3620"
+  },
+  "logger": {
+    "level": "debug"
   }
 }
